@@ -1,7 +1,14 @@
-.clickableHeader {
+.back {
+    display: none;
+}
+
+.cardContainer {
+    display: inline-flex;
 
 }
 
-.clickableBody {
-
+.card {
+    margin: 10px;
+    min-height:300px;
+    min-width: 300px
 }

@@ -1,6 +1,6 @@
 $(function() {
   $(".clickable").click(function (){
-    $(this).children("h5").toggle();
-    $(this).children("p").toggle();
+    $(this).find(".front").toggle();
+    $(this).find(".back").toggle();
   });
 });
